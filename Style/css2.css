@@ -1,0 +1,141 @@
+<style>
+		.w3-theme {color:#fff !important;background-color:#000080 !important}
+		.w3-btn {background-color:#4CAF50;margin-bottom:4px}
+		.w3-code{border-left:4px solid #4CAF50}
+		.myMenu {margin-bottom:150px}
+		h1,h2,h3{
+			color:#660000;
+		}
+		hr.new1 {
+		  border-top: 1px solid blue;
+		}
+		.glow {
+			font-size: 22px;
+			color: #fff;
+			text-align: center;
+			-webkit-animation: glow 2s ease-in-out infinite alternate;
+			-moz-animation: glow 2s ease-in-out infinite alternate;
+			animation: glow 2s ease-in-out infinite alternate;
+		}
+
+		@-webkit-keyframes glow {
+			from {
+				text-shadow: 0 0 5px #32CD32, 0 0 10px #32CD32, 0 0 15px #32CD32, 0 0 20px #32CD32, 0 0 25px #32CD32, 0 0 30px #32CD32, 0 0 35px #32CD32;
+			}
+			to {
+				text-shadow: 0 0 5px #8A2BE2, 0 0 10px #8A2BE2, 0 0 15px #8A2BE2, 0 0 20px #8A2BE2, 0 0 25px #8A2BE2, 0 0 30px #8A2BE2, 0 0 35px #8A2BE2;
+			}
+		}
+		
+		input[type=text], select, textarea {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 5px;
+		  box-sizing: border-box;
+		  margin-top: 6px;
+		  margin-bottom: 16px;
+		  resize: vertical;
+		}
+		
+		input[type=date] {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 5px;
+		  box-sizing: border-box;
+		  margin-top: 6px;
+		  margin-bottom: 16px;
+		  resize: vertical;
+		}
+
+		#idate {
+		  width: 42%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 5px;
+		  box-sizing: border-box;
+		  margin-top: 6px;
+		  margin-bottom: 16px;
+		  resize: vertical;
+		}
+		
+		input[type=password] {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 5px;
+		  box-sizing: border-box;
+		  margin-top: 6px;
+		  margin-bottom: 16px;
+		  resize: vertical;
+		}
+		
+		hr.new {
+		  border-top: 1px solid grey;
+		}
+		#myInput {
+		  background-image: url('Style/Images/searchicon.png');
+		  background-position: 1px 6px;
+		  background-repeat: no-repeat;
+		  width: 49%;
+		  font-size: 12px;
+		  padding: 8px 12px 8px 32px;
+		  border: 1px solid #ddd;
+		  margin-bottom: 2px;
+		}
+
+		#myInput1 {
+		  background-image: url('Style/Images/searchicon.png');
+		  background-position: 1px 6px;
+		  background-repeat: no-repeat;
+		  width: 49%;
+		  font-size: 12px;
+		  padding: 8px 12px 8px 32px;
+		  border: 1px solid #ddd;
+		  margin-bottom: 2px;
+		}
+
+		#search{
+		  background-image: url('Style/Images/searchicon.png');
+		  background-position: 1px 6px;
+		  background-repeat: no-repeat;
+		  width: 100%;
+		  font-size: 12px;
+		  padding: 8px 12px 8px 32px;
+		  border: 1px solid #ddd;
+		  margin-bottom: 2px;
+		}
+	
+		/*  -------Table---------*/
+		#table1 {
+		  border-collapse: collapse;
+		  width: 100%;
+		}
+
+		#table1 td, #table1 th {
+		  border: 1px solid grey;
+		  padding: 4px;
+		  text-align: center;
+		}
+		#table1 tr:nth-child(even){background-color:white;}
+		#table1 tr:nth-child(odd){background-color:white;}
+		#table1 tr:hover {background-color: LightGray;}
+
+		#table1 th {
+		  padding-top: 4px;
+		  padding-bottom: 4px;
+		  text-align: center;
+		  font-family:Arial;
+		  background-color:DarkBlue;
+		  color: white;
+		  font-size:16px;
+		}
+		#filter {
+		  width: 20%;
+		  padding: 8px;
+		  border: 1px solid #ccc;
+		  border-radius: 5px;
+		}
+		
+</style>
